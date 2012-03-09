@@ -220,7 +220,7 @@ function page_dispatch() {
 page_dispatch();
 
 
-?>
+
 	
 	// FB App details
 	include_once('settings.php');
