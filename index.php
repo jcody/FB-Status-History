@@ -221,7 +221,7 @@ page_dispatch();
 
 
 
-	//Temporarily disabling cause I have no idea what the fuck this does
+	//Temporarily disabling cause I have no idea what the fuck this doesg
 	/* 
 	// FB App details
 	include_once('settings.php');
