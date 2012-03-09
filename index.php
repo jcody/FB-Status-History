@@ -13,7 +13,7 @@ require_once 'includes/feed.php';
 // FB App details	
 $app_id = "233868763323548";
 $app_secret = "9fa776021a4760d8946d74a9dbeac900"; 
-$canvas_page = "https://apps.facebook.com/the_time_capsule/";//"http://ec2-75-101-236-189.compute-1.amazonaws.com/";	
+$canvas_page = "https://apps.facebook.com/status-timecapsule";//"http://hollow-snow-2685.heroku.com/";	
 
 // Create the facebook API object
 $facebook = new Facebook(array(
@@ -221,7 +221,8 @@ page_dispatch();
 
 
 
-	
+	//Temporarily disabling cause I have no idea what the fuck this does
+	/* 
 	// FB App details
 	include_once('settings.php');
 
@@ -252,6 +253,6 @@ page_dispatch();
   	$response = file_get_contents($post_url);
   	$decoded_response = json_decode($response);
   	//$photo_id = $decoded_response->data[0]->id;
-  
+  */
 
 ?>
