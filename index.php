@@ -13,7 +13,7 @@ require_once 'includes/feed.php';
 // FB App details	
 $app_id = "233868763323548";
 $app_secret = "9fa776021a4760d8946d74a9dbeac900"; 
-$canvas_page = "https://apps.facebook.com/status-timecapsule";//"http://hollow-snow-2685.heroku.com/";	
+$canvas_page = "https://apps.facebook.com/status-timecapsule";//"http://fb-status-timecapsule.herokuapp.com/";	
 
 // Create the facebook API object
 $facebook = new Facebook(array(
